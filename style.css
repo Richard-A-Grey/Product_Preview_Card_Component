@@ -1,5 +1,126 @@
-img{
-    width: 25%;
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5%;
+    background-color: #FDF4EC;
 }
-
-
+.everything-containter{
+    display: flex;
+    width: 50%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    box-shadow: 5px 5px 15px #e7dfd8;
+    transition: ease-in-out .5s;
+}
+.left-container{
+    flex: 1;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.left-container img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.right-container{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.cart-text{
+    background-color: #e07700d6;
+    color: white;
+    font-weight: bold;
+    opacity: .9;
+    border: none;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 10PX;
+    transition: ease-in .3s;
+    font-size: 110%;
+}
+.perfume-text{
+    flex: 1;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 10%;
+    letter-spacing: 4px;
+    font-family:  monospace;
+    opacity: .6;
+    font-size: larger;
+}
+.perfume-title-text{
+    flex: 1;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 200%;
+    opacity: .8;
+    margin-top: -8%;
+    line-height: 100%;
+}
+.about-text{
+    flex: 1;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 6%;
+    opacity: .45;
+    font-weight: 600;
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price-container{
+    flex: 1;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 10%;
+    flex-direction: row;
+    display: flex;
+}
+.sale-price{
+    flex: 1;
+    font-size: 200%;
+    font-family:  Verdana;
+    font-weight: bolder;
+    margin-top: -3%;
+    color: #e07700d6;
+    letter-spacing: 1px;
+}
+.old-price{
+    flex: 1;
+    text-decoration: line-through;
+    font-family:  'Times New Roman';
+    opacity: .4;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    font-size: 80%;
+    font-weight: bold;
+}
+.cart-button{
+    flex: 1;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+.cart-text:hover{
+    background-color: white;
+    color: #e07700d6;
+    box-shadow: 0px 0px 10px #e07700d6;
+    cursor: pointer;
+}
+.everything-containter:hover{
+    transform: scale(1.1);
+}
